@@ -1,4 +1,4 @@
-# Roomfull Furniure Node App
+# Roomfull Furniture Backend
 
 ## Installation
 - Get the project
