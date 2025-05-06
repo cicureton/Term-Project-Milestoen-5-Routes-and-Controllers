@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin - Add New Product</title>
+  <link rel="stylesheet" href="styles/admin.css" />
+  <script src="scripts/product-add.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Roomful Furniture Admin View</h1>
+    <nav>
+      <a href="admin-upload.html">Bulk Upload</a>
+      <a href="admin-products.html">Product Listing</a>
+      <a href="index.html">Sign Out</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Add New Product</h2>
+    <form id="add-product-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" required></textarea><br>
+
+      <label for="category">Category:</label>
+      <input type="text" id="category" name="category" required><br>
+
+      <label for="price">Price:</label>
+      <input type="number" id="price" name="price" required><br>
+
+      <label for="image">Image Path:</label>
+      <input type="text" id="image" name="image"><br>
+
+      <button type="submit">Add Product</button>
+    </form>
+  </main>
+
+</body>
+
+</html>
