@@ -4,7 +4,7 @@
 - Get the project
     - clone
         ```bash
-        git clone https://github.com/cicureton/Term-Project-Milestoen-5-Routes-and-Controllers.git
+        https://github.com/cicureton/Term-Project-Milestoen-6-Final-Project-Presentation.git
         ```
     - or download the zip.
 - Open the project in VSCode.
